@@ -5,6 +5,7 @@ function Modal({ user, setUserIndex }) {
     <div className="modal">
       <div className="image-container">
         <a
+          href="#"
           className="modal-close"
           onClick={() => {
             setUserIndex(-1);

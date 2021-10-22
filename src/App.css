@@ -57,7 +57,7 @@ button {
   transform: translate(-50%, -50%);
   background: white;
 }
-.modal-close {
+a {
   color: #33a665;
   text-decoration: none;
   position: absolute;
