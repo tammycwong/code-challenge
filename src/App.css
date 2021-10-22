@@ -35,7 +35,7 @@ button {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 8px 36px;
+  padding: 11px 36px;
   position: relative;
   width: 117px;
   height: 36px;
@@ -43,6 +43,8 @@ button {
   border-radius: 8px;
   color: white;
   cursor: pointer;
+  border-style: solid;
+  border: none;
 }
 
 /* modal */

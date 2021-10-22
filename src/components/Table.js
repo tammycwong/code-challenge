@@ -3,6 +3,7 @@ import uuid from "uuid";
 import moment from "moment";
 
 function Table({ users, setUserIndex }) {
+
   return (
     <table className="app-container">
       <thead className="header">
