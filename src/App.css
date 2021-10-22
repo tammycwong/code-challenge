@@ -21,12 +21,11 @@ td {
   text-align: left;
   padding: 10px;
   font-size: 1.1rem;
-  height: 72px;
+  height: 10vh;
 }
 th {
   background-color: #30313d;
-  color: white;
-  border: none;
+  color: #ffffff;
 }
 tr:nth-child(even) {
   background: #eeeeee;
@@ -34,14 +33,14 @@ tr:nth-child(even) {
 button {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 11px 36px;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  width: 117px;
-  height: 36px;
+  width: 8vw;
+  height: 4.5vh;
   background: #33a665;
   border-radius: 8px;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
   border-style: solid;
   border: none;
@@ -55,7 +54,7 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: white;
+  background: #ffffff;
 }
 a {
   color: #33a665;
@@ -85,7 +84,7 @@ img {
 
 
 @media (max-width: 640px) {
-  html {
+  html button{
     font-size: 0.6rem;
   }
 }
