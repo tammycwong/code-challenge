@@ -21,9 +21,6 @@ function Modal({ user, setUserIndex }) {
           <p>Email: {user.email}</p>
           <p>Phone: {user.phone}</p>
           <p>Cell: {user.cell}</p>
-          <p>
-            Address: {user.location.street.number} {user.location.street.name}
-          </p>
         </div>
       </div>
     </div>

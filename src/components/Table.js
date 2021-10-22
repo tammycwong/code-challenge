@@ -8,7 +8,7 @@ function Table({ users, setUserIndex }) {
       <thead className="header">
         <tr>
           <th>Name</th>
-          <th>DOB</th>
+          <th>Date of Birth</th>
           <th>State</th>
           <th>Country</th>
           <th></th>
@@ -22,7 +22,6 @@ function Table({ users, setUserIndex }) {
             location: { state, country },
             dob: { date },
           } = user;
-          console.log(user.name)
 
           return (
             <tr key={user.name}>
