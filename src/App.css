@@ -78,7 +78,7 @@ a {
   align-items: center;
 }
 img {
-  width: 30vh;
+  width: 15vw;
 }
 
 
@@ -89,8 +89,5 @@ img {
   }
   .modal {
     width: 300px;
-  }
-  img {
-
   }
 }
