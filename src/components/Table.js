@@ -1,5 +1,4 @@
 import React from "react";
-import uuid from "uuid";
 import moment from "moment";
 
 function Table({ users, setUserIndex }) {
@@ -23,9 +22,10 @@ function Table({ users, setUserIndex }) {
             location: { state, country },
             dob: { date },
           } = user;
+          console.log(user.name)
 
           return (
-            <tr key={uuid}>
+            <tr key={user.name}>
               <td>
                 {title}. {first} {last}
               </td>
