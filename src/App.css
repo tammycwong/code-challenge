@@ -84,7 +84,7 @@ img {
 
 
 @media (max-width: 640px) {
-  html button{
+  html, button {
     font-size: 0.6rem;
   }
 }
